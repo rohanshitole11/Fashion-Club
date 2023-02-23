@@ -1,0 +1,534 @@
+<html>
+<head>
+    <title>Bags</title>
+    <style>
+
+    .second_div{
+
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.offer-img{
+    height: 400px;
+    width: 90%;
+     display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 30px;
+
+}
+.categories-container-bag{
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 400px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(242, 239, 236);
+    
+}
+.categories-card{
+    background-color: rgb(240, 238, 241);
+    width: 200px;
+    height: 250px;
+    border-radius: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 20px;
+    padding: 10px;
+    border-style: solid;
+}
+.categories-card-title-1{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+.heading-bags{
+    text-align: center;
+}
+.footer-1{
+    height: 300px;
+    background-color: rgb(4, 4, 46);
+}
+.buy-btn{
+    height: 30px;
+    width: 100px;
+    color: white;
+    border-radius: 3px;
+    border-style: solid;
+    background-color: rgb(240, 9, 163);
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.View-btn{
+    height: 30px;
+    width: 100px;
+    color: rgb(5, 5, 5);
+    border-radius: 3px;
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    margin-left: 8px;
+}
+.div-2{
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 400px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(242, 239, 236);
+    
+    
+ }
+ .rtc {           background-color: rgb(212, 227, 239);
+            border-radius: 15px;
+        }
+        
+        .top-heading {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+        
+        .sign-up:hover {
+            height: 50px;
+            width: 100px;
+        }
+        
+        .sign-up {
+            height: 40px;
+            width: 90px;
+            text-decoration: none;
+            color: white;
+            margin-top: 15px;
+            background-color: rgb(38, 38, 117);
+            border-radius: 10px;
+            margin-left: 40px;
+            border-color: #353573;
+            font-size: 17px;
+            margin-bottom: 10px;
+        }
+        
+        .sign-in:hover {
+            height: 50px;
+            width: 100px;
+        }
+        
+        .sign-in {
+            height: 40px;
+            width: 90px;
+            text-decoration: none;
+            color: white;
+            font-size: 17px;
+            margin-left: 30px;
+            border-radius: 10px;
+            background-color: rgb(38, 38, 117);
+            margin-top: 15px;
+            margin-right: 50px;
+            border-color: #353573;
+            margin-bottom: 10px;
+        }
+        
+        .navbar {
+            background-color: rgb(8, 8, 104);
+            height: 78px;
+            align-items: center;
+            padding-right: 100px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            position: sticky;
+            margin-top: 7px;
+            position: static;
+            float: none;
+            color: #0F1111;
+        }
+        
+        .logo:hover {
+            height: 90px;
+        }
+        
+        .logo1 {
+            height: 75px;
+            display: block;
+            position: sticky;
+            margin-left: 7px;
+            border-radius: 3px 50px 3px 35px;
+        }
+        
+        .home:hover {
+            height: 40px;
+        }
+        
+        .home {
+            height: 30px;
+            text-decoration: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: px;
+            font-size: 4px;
+            color: white;
+            margin-left: 30px;
+        }
+        
+        .not:hover {
+            height: 40px;
+        }
+        
+        .not {
+            height: 30px;
+            text-decoration: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: px;
+            font-size: 4px;
+            color: white;
+        }
+        
+        .profile:hover {
+            height: 65px;
+            width: 62px;
+        }
+        
+        .profile {
+            height: 60px;
+            width: 60px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        .add-to-cart:hover {
+            height: 50px;
+            width: 40px;
+        }
+        
+        .add-to-cart {
+            height: 40px;
+            width: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin-left: 80%;
+            margin-right: 30px;
+        }
+        
+        .return-order {
+            height: auto;
+            text-decoration: none;
+            color: white;
+            margin-left: 90%;
+        }
+        
+        .menu {
+            height: auto;
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+        
+        .return-order {
+            height: auto;
+            text-decoration: none !important;
+            color: white;
+            margin-left: 90%;
+        }
+        
+        .search-bar {
+            width: 250px;
+            height: 33px;
+            border-color: black;
+            border-style: solid;
+            margin-top: 7px;
+        }
+        
+        .search-button {
+            height: 33px;
+            width: 70px;
+            margin-left: px;
+            margin-right: 50px;
+            border-color: black;
+            border-style: solid;
+        }
+.categories-1{
+    text-decoration: none;
+}
+.div-3{
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 400px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(242, 239, 236);   
+ }
+ .footer {
+    position: relative;
+    background-color: #040436;
+    height: 300px;
+    margin-top: 80px;
+}
+
+.about {
+    position: absolute;
+    top: 25px;
+    margin-left: 80px;
+    color: #e6e6ff;
+}
+
+.about-list {
+    position: absolute;
+    top: 80px;
+    margin-left: 76px;
+    color: #e6e6ff;
+    font-size: 20px;
+}
+
+.help {
+    position: absolute;
+    color: #e6e6ff;
+    margin-left: 500px;
+    top: 25px;
+}
+
+.help-list {
+    position: absolute;
+    color: #e6e6ff;
+    margin-left: 500px;
+    top: 90px;
+    font-size: 20px;
+}
+
+.policy {
+    position: absolute;
+    color: #e6e6ff;
+    margin-left: 760px;
+    top: 25px;
+}
+
+.policy-list {
+    position: absolute;
+    color: #e6e6ff;
+    margin-left: 760px;
+    top: 90px;
+    font-size: 20px;
+}
+
+.social {
+    position: absolute;
+    color: #e6e6ff;
+    margin-left: 1000px;
+    top: 25px;
+}
+
+.social-list {
+    position: absolute;
+    color: #e6e6ff;
+    margin-left: 1000px;
+    top: 90px;
+    font-size: 20px;
+}
+
+.contact {
+    margin-left: 50px;
+}
+
+.call {
+    text-decoration: none !important;
+}
+
+.anc {
+    text-decoration: none !important;
+    color: white;
+}
+
+ .ft-heading{
+  background-color: rgb(212, 227, 239);
+    border-radius: 15px;
+    text-align: center;
+    height: 60px;
+ }
+ /*----------------------------------------------------------*/
+ .buy-btn:hover{
+    color: azure;
+   background-color: rgb(32, 164, 38);
+   margin-top: 8px;
+   margin-left: 8px;
+   cursor: pointer;
+   width: 104px;
+   height: 31px;
+   font-size: 16px;
+   cursor: pointer;
+    
+
+ }
+    </style>
+</head>
+<body class="body">
+
+    <div class="navbar">
+
+        <img src="../images/logo.jpg" class="logo1" />
+
+        <a href="../index.html">
+            <img src="../images/home.png" class="home" />
+        </a>
+
+        <form id="form">
+            <input type="search" id="query" name="q" placeholder="Search here ...." class="search-bar">
+            <button class="search-button">Search</button>
+        </form>
+
+        </a>
+        <a href="../pages in navbar/Notification.html">
+            <img src="../images/notification.png" class="not" />
+        </a>
+
+        <a href="../pages in navbar/addtocart.html">
+            <img src="../images/add-to-cart.png" class="add-to-cart" /></a>
+        <a href="../pages in navbar/signup.html" class="categories-1">
+            <button class="sign-up">Sign Up</button>
+        </a>
+
+        <a href="../pages in navbar/signin.html" class="categories-1">
+            <button class="sign-in">Log In</button>
+        </a>
+        <a href="../pages/user.html">
+            <img src="../images/user.png" class="profile" />
+        </a>
+
+    </div>
+</div>
+      <h1 class="ft-heading">Men's Wear</h1>   
+      <div class="second_div">
+           <img src="./images/men-suits-banner.jpg" class="offer-img">
+      </div>
+
+       <!-- Categories-->
+       <div class="categories-container-bag">
+        <div>
+             <img src="./images/suit-16.webp" class="categories-card" />
+                <h class="categories-card-title-1"> &nbsp;&nbsp;&nbsp;&nbsp;men solid suits petel england<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ru 2200/- only </h><br>
+                <a href="./back-end-buy.html"><button class="buy-btn">Buy Now</button></a>
+                <button class="View-btn">Add to Cart</button>
+        </div>
+        <div>
+            <img src="./images/suit-2.webp" class="categories-card" />
+               <h class="categories-card-title-1">&nbsp &nbsp &nbsp double SLIM suit solid suit<br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ru 2100/- only </h><br>
+               <a href="./back-end-buy.html"><button class="buy-btn">Buy Now</button></a>
+               <button class="View-btn">Add to Cart</button>
+       </div>
+       <div>
+        <img src="./images/suit-14.webp" class="categories-card" />
+           <h class="categories-card-title-1">   &nbsp men single breasted-2 solid suit <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ru 3100/- Only</h><br>
+           <a href="./back-end-buy.html"><button class="buy-btn">Buy Now</button></a>
+           <button class="View-btn">Add to Cart</button>
+       </div>
+       <div>
+       <img src="./images/suit-20.webp" class="categories-card" />
+          <h class="categories-card-title-1"> &nbsp &nbsp;&nbsp;&nbsp;&nbsp;  men SLIM FIT Solid Suit<br> &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ru 1999/- Only</h><br>
+          <a href="./back-end-buy.html"><button class="buy-btn">Buy Now</button></a>
+       <button class="View-btn">Add to Cart</button></div></div><br>
+       
+
+
+       <!--div 2-->
+       <div class="div-2">
+       <div>
+        <img src="./images/suit-5.webp" class="categories-card" />
+           <h class="categories-card-title-1"> &nbsp  &nbsp &nbsp  &nbsp men 2 piece suit checkered <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ru 2399/- Only</h><br>
+           <a href="./back-end-buy.html"><button class="buy-btn">Buy Now</button></a>
+           <button class="View-btn">Add to Cart</button>
+   </div>
+   <div>
+       <img src="./images/suit-6.webp" class="categories-card" />
+          <h class="categories-card-title-1"> &nbsp &nbsp;&nbsp; Premium royal men solid suit <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ru 2299/- Only</h><br>
+          <a href="./back-end-buy.html"><button class="buy-btn">Buy Now</button></a>
+          <button class="View-btn">Add to Cart</button>
+  </div>
+  <div>
+   <img src="./images/suit-7.webp" class="categories-card" />
+      <h class="categories-card-title-1"> &nbsp  &nbsp &nbsp &nbsp;&nbsp; &nbsp men solid slim fit suit <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ru 1999/- Only</h><br>
+      <a href="./back-end-buy.html"><button class="buy-btn">Buy Now</button></a>
+      <button class="View-btn">Add to Cart</button>
+  </div>
+
+  <div>
+    <img src="./images/suit-8.webp" class="categories-card" />
+       <h class="categories-card-title-1"> &nbsp  &nbsp  &nbsp &nbsp TROUSER solid men suit <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ru 2399/- Only</h><br>
+       <a href="./back-end-buy.html"><button class="buy-btn">Buy Now</button></a>
+       <button class="View-btn">Add to Cart</button>
+</div></div>
+
+  <!--div 3-->
+  <div class="div-3">
+    <div>
+     <img src="./images/suit-9.webp" class="categories-card" />
+        <h class="categories-card-title-1"> &nbsp  &nbsp men single breasted-2 solid suit <br> &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ru 2500/- Only</h><br>
+        <a href="./back-end-buy.html"><button class="buy-btn">Buy Now</button></a>
+        <button class="View-btn">Add to Cart</button>
+</div>
+<div>
+    <img src="./images/suit-10.webp" class="categories-card" />
+       <h class="categories-card-title-1"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; special men royal suit <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ru 3199/- Only</h><br>
+       <a href="./back-end-buy.html"><button class="buy-btn">Buy Now</button></a>
+       <button class="View-btn">Add to Cart</button>
+</div>
+<div>
+<img src="./images/suit-11.webp" class="categories-card" />
+   <h class="categories-card-title-1"> &nbsp  &nbsp Premium royal men solid suit <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ru 2000/- Only</h><br>
+   <a href="./back-end-buy.html"><button class="buy-btn">Buy Now</button></a>
+   <button class="View-btn">Add to Cart</button>
+</div>
+
+<div>
+ <img src="./images/suit-12.webp" class="categories-card" />
+    <h class="categories-card-title-1"> &nbsp  men single breasted-2 solid suit <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ru 2200/- Only</h><br>
+    <a href="./back-end-buy.html"><button class="buy-btn">Buy Now</button></a>
+    <button class="View-btn">Add to Cart</button>
+</div></div>
+
+ <!--footer-->
+
+ <div class="footer">
+    <h2 class="about">CONTACT</h2><br>
+    <p class="about-list">
+        <a href="mailto:tinukohare@gmail.com" class="anc">
+            <img src="./images/email.png" height="30px" alt="E-mail" /> E-mail: rtcfashionclub@gmail.com
+        </a><br>
+        <a href="tel:+91-8459562384" class="anc">
+            <img src="./images/call.png" height="30px" alt="Call" />
+            <h class="call">Call: +91 8459562384<br></a>
+
+        <a href="https://goo.gl/maps/XYayxp7jYfVYHPRCA" class="anc">
+            <img src="./images/location.png" height="30px" /> Address: Nagpur
+        </a><br></p>
+
+
+    <h2 class="help"> HELP</h2>
+    <p class="help-list">Payments<br> Shiping <br>Customer Service <br> FAQ</p>
+
+    <h2 class="policy"> POLICY</h2>
+    <p class="policy-list">Return Policy<br>Terms Of Use <br> Security <br> Privacy</p>
+
+
+    <h2 class="social"> SOCIAL</h2>
+    <p class="social-list">Facebook<br>Twitter <br>You Tube</p>
+</div>
+
+</body>
+</html>
